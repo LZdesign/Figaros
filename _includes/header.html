@@ -1,0 +1,91 @@
+ <a  name="home"></a>
+ <header >
+      
+      <div class="starterbg">
+        
+         <h1 class="title-starter">{{ site.data.setting.title }}</h1>
+
+      </div>
+       
+       <div class="menuicon position">  
+          {% include icons/menu.html %}
+       </div>
+       
+         
+       <div class="navmenu-container">
+          
+          <div class="closemenu position">  
+          {% include icons/exit.html %}
+       </div>
+
+           <ul>
+             <li class=" nav--items"><a href="#home">Home</a></li>
+             <li class=" nav--items"><a href="#about">About</a></li>
+             <li class=" nav--items"><a href="#portfolio">Portfolio</a></li>
+             <li class=" nav--items"><a href="#contact">Contact</a></li>
+           </ul>
+      
+      </div>  
+
+      <div class="pagecover">
+        
+            <h1 class="menu--title"> Figaro's Glass </h1>
+        
+         <div class="social-row">
+            <ul>
+              <li class="social--item">
+                <span class="icon-facebook"></span>
+              </li>
+              
+              <li class="social--item"><span class="icon-instagram"></span></li>
+            </ul>
+          </div>
+
+         <p class="menu--email">figarosglass@yahoo.com
+              <p class="menu--number">-07763220171-</p>
+            </p>
+
+
+      </div>
+       
+        
+
+       </div>
+        
+
+           
+    
+      <div class="blackline ">
+    
+              <h1 class="title">{{ site.data.setting.title }}</h1>
+              <h4 class="subtitle h-info">{{ site.data.setting.subtitle }}</h4>
+              <h5 class="description h-info">{{ site.data.setting.description }}</h4>
+    
+              <div class="buttonlink">
+                     <div class="linkdiv">
+                      
+                      <a  href="#contact" >
+                      {% include icons/contactbutton.html %}
+                     </a>
+
+                    </div>
+
+                    <div class="linkdiv">
+                        
+                         <a href="#portfolio">
+                             {%  include icons/portfoliobutton.html  %}
+                         </a>
+
+                    </div>
+              </div>          
+    
+       </div>
+
+
+   
+        <a class="h--arrow" href="#about">{% include icons/bottom-arrow.html %}</a> 
+
+
+
+         
+ </header>

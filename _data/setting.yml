@@ -1,0 +1,38 @@
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+#Setting 
+title: "Figaro's Glass"
+subtitle: 'Stained glass art and restauration'
+description: 'for your business, your home, your loved ones'
+email: 'example@example.com'
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Project-1, folder: 'proj-1', file: 'project-1.jpg'}
+- {name: Project-2, folder: 'proj-2', file: 'project-2.jpg'}
+- {name: Project-3, folder: 'proj-3', file: 'project-3.jpg'}
+- {name: Project-4, folder: 'proj-4', file: 'project-4.jpg'}
+- {name: Project-5, folder: 'proj-5', file: 'project-5.jpg'}
+- {name: Project-6, folder: 'proj-6', file: 'project-6.jpg'}
+- {name: Project-7, folder: 'proj-7', file: 'project-7.jpg'}
+- {name: Project-8, folder: 'proj-8', file: 'project-8.jpg'}

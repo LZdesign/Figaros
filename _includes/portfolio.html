@@ -1,0 +1,60 @@
+  <a  name="portfolio"></a> 
+         
+            
+    <section id="portfolio">
+      
+
+
+           <div class="a--about gallery">
+     
+                 <div class="a-icons-container">
+     
+                    {% include icons/portfolio.html %}
+                       <p>PORTFOLIO</p>
+     
+                   </div>
+     
+           </div>
+          
+           <div class="portfolio-container">
+              
+              
+
+                     <div class="exit-div exit-portfolio" >
+                        {% include icons/closediv.html %}
+                     </div>
+
+                    
+                    <h4 class"a--title">PORTFOLIO</h4>
+              
+
+
+                   <div class="portfolio">
+
+                       
+                    {% for project in site.data.setting.projects  %}
+                       <a name="{{ project.name }}" rel="gallery" class="thumb-unit fancybox" href="/assets/css/img/work/{{project.folder}}/{{project.file}}" style="background-image: url(/assets/css/img/work/{{project.folder}}/{{project.file}});">
+                          <div class="portfolio-items">
+                        
+                        <strong>{{ project.name }}</strong>
+
+                      </div>
+
+                       </a>
+                      
+                    {% endfor %}
+                   </div>
+                                           
+
+            </div>
+             
+
+        
+   
+
+    
+
+
+    </section>        
+
+      

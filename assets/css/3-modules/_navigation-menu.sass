@@ -1,0 +1,93 @@
+.navmenu-container
+  display: flex
+  justify-content: center
+  flex-direction: column
+  height: 100%
+  background-color: $text-color
+  width: 35%
+  +position(fixed, 0 null null 100% )
+  +transition(1.6s) 
+  text-align: center
+  overflow: hidden
+  ul 
+    display: inline-block
+    margin: 10px auto
+    @media #{$mobile}
+      margin: 70px auto 0 auto 
+    @media #{$minimobile}
+      margin: 80px auto 
+  
+  p
+    margin: 0 0 5px 0 
+    @media #{$mobile}
+      margin: 0 0 3px 0 
+
+  .nav--items
+
+    margin: 30px
+    font:
+      family: 'italianno' 
+      size: 50px
+      weight: 100
+    border-top: 1px
+   
+    a
+      color: #FFF 
+      border-top: 1px solid 
+      border-top-width: 0px
+      transition: all 0.8s  
+      &:hover
+        border-top: 1px solid 
+        border-top-width: 100% 
+    @media #{$minimobile}
+      font-size: 30px
+    @media #{$mobile}
+      font-size: 35px
+      margin: 33px
+
+.pagecover
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  +position(fixed, -100% null null 0)
+  width: 65%
+  height: 100%
+  background-color: rgba(65,165,117,.95)
+  +transition(1.6s)
+  .menu--title
+    font-family: 'Italianno'
+    font-size: 108px
+
+
+
+    
+    
+.social-row ul 
+  padding: 0
+  display: flex
+  flex-direction: row
+  text-align: center
+  
+
+li.social--item
+  display: flex 
+  fill: #FFF
+  font-size: 25px
+  margin: 0 30px
+   
+  &:hover
+    fill: $primary-color
+
+
+
+
+   
+
+
+.active
+  z-index: 9999
+  +transform(translateX(-100%))
+.coverup
+  z-index: 9999
+  +transform(translateY(100%))

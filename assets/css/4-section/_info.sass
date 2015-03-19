@@ -1,0 +1,52 @@
+
+
+#info--container
+  position: relative
+  display: flex
+  flex-direction: column
+  background-image: url('img/infobg.png')
+  background-position: center
+  background-size: cover
+  
+  p
+    margin-top: -10px
+    font: 
+      weight: 400
+    color: $text-color
+
+.info
+  background-image: url('img/info.png')
+  background-size: cover 
+  background-position: center
+  width: 40%
+  margin: -40px 80px 40px 
+  align-self: flex-end
+
+
+.i-icons-container
+  +size(100px)
+  margin: 100px
+  cursor: pointer
+  &:hover
+    border-top: 1px solid #fff
+  p
+    color: #fff
+  
+.info-container
+  width: 100%
+  background-color: $primary-color
+  display: flex
+  justify-content: center
+  +position(absolute, 12% null null 100% )
+  align-items: center
+  flex-direction: column
+  padding: 80px 0 
+  +transition(2s)
+  
+  p 
+    font-size: 14px
+    color: #333
+    width: 50%
+    padding: 40px
+  h4
+    color: #222
